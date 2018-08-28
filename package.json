@@ -1,0 +1,24 @@
+{
+  "name": "steam-bot",
+  "version": "1.0.0",
+  "description": "A Bot from Trading and Idling Games on Steam created with Node.",
+  "main": "index.js",
+  "dependencies": {
+    "steam-user": "^3.28.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NinjaDev3/steam-bot.git"
+  },
+  "keywords": [],
+  "author": "Anup Kumar Bid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NinjaDev3/steam-bot/issues"
+  },
+  "homepage": "https://github.com/NinjaDev3/steam-bot#readme"
+}
