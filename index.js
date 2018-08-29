@@ -29,7 +29,6 @@ client.on('appOwnershipCached', function() {
   // client.gamesPlayed(304390);
 
   const games = [
-    100,
     205790,
     12750,
     35450,
@@ -61,6 +60,8 @@ client.on('appOwnershipCached', function() {
     304390
   ];
   let currentgame = 0;
+  client.gamesPlayed(games[currentgame]);
+  currentgame = 1;
   setInterval(() => {
     client.gamesPlayed(games[currentgame]);
 
